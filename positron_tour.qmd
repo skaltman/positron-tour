@@ -1,0 +1,61 @@
+---
+title: "A Brief Tour of Positron"
+format: html
+---
+
+**We’re excited to introduce [Positron](https://positron.posit.co/start.html),** a next-generation data science IDE that makes it easy to work in both R and Python.
+
+Positron builds on our years of experience developing RStudio and is a fork of VS Code, designed specifically for data work. This means you get a modern coding interface with features tailored for data science, like a built-in data explorer, AI assistance, interpreter management, and more.
+
+## Where to Get Positron
+
+You can download the Positron for macOS, Windows, or Linux at: [https://positron.posit.co/download.html](https://positron.posit.co/download.html).
+
+
+## A Quick Tour
+
+Now let’s take a closer look at some of the key features of Positron.
+
+### Interpreters
+
+Positron supports multiple interpreter sessions across R and Python, allowing you to switch between environments easily within a single workspace. 
+
+Positron shows the **active interpreter** in the upper-right corner, as well as highlights it in the Console. 
+
+You can see which interpreter is active in the interpreter picker in the upper-right corner. Switch between interpreters by clicking on the interpreter picker. 
+
+![](images/positron-interpreter.png)
+
+Learn more about managing interpreters: https://positron.posit.co/managing-interpreters.html. 
+
+### Data Explorer
+
+The Data Explorer gives you a spreadsheet-style view of your data. You can filter and sort tables, as well as view summary statistics for each column. 
+
+This makes it easy to quickly inspect datasets, check for missing values, or preview the results of your transformations. 
+
+To access the Data Explorer, click on the spreadsheet icon next to the dataset in the Variables pane. 
+
+![](images/data-explorer.mov)
+
+## Connections Pane
+
+The Connections Pane allows you to explore database connections created within your R or Python sessions. Once you've opened a connection, you can use the Connections Pane to explore the database schema.
+
+![](images/connections-pane.mov)
+
+## Positron Assistant
+
+Positron Assistant is an AI tools that provides LLM integration within Positron. Positron Assistant can generate code, help you debug, and provide suggestions for next steps in your projects. 
+
+Note that Positron Assistant is currently a **preview** feature. Learn more, including how to setup Positron Assistant, [here](https://positron.posit.co/assistant.html). 
+
+![](images/positron-assistant.mov)
+
+## Help Pane
+
+Just like in RStudio, you can pull up documentation within Positron for both R and Python.  
+
+![](images/help-pane.mov)
+
+Learn more about the Help Pane [here](https://positron.posit.co/help-pane.html).
