@@ -37,7 +37,7 @@ Positron shows the *active interpreter* in the upper-right corner (the interpret
 
 ![](images/positron-interpreter.png)
 
-Learn more about managing interpreters: https://positron.posit.co/managing-interpreters.html. 
+Learn more about managing interpreters: [https://positron.posit.co/managing-interpreters.html](https://positron.posit.co/managing-interpreters.html). 
 
 ### Data Explorer: Visually inspect your data  
 
