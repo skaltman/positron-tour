@@ -7,14 +7,27 @@ format: html
 
 Positron builds on our years of experience developing RStudio and is a fork of VS Code, designed specifically for data work. This means you get a modern coding interface with features tailored for data science, like a built-in data explorer, AI assistance, interpreter management, and more.
 
-## Where to Get Positron
+## Download Positron
 
 Download Positron for macOS, Windows, or Linux: [https://positron.posit.co/download.html](https://positron.posit.co/download.html).
 
+## Layout
+
+First, let's take a look at the general layout of Positron. 
+
+![](images/layout.png)
+
+Positron's core layout components include:
+
+* **Activity Bar**: Access the Explorer, Search, Source Control, Extensions, and other views.
+* **Primary Side Bar**: Shows different views depending on what you have chosen in the Activity Bar. When the Explorer is chosen, the Primary Side Bar provides a file explorer. 
+* **Editor**: Where you write your code. 
+* **Panel**: Contains the Console and Terminal. 
+* **Secondary Side Bar**: Explore variables, view plots, access documentation, and more.  
 
 ## A Quick Tour
 
-Now let’s take a closer look at some of the key features of Positron.
+Now, let’s take a quick look at some of Positron’s key features.
 
 ### Manage interpreters: Switch between R and Python versions
 
@@ -44,13 +57,13 @@ The Connections Pane allows you to **explore database connections created within
 
 ![](images/connections-pane.mov)
 
-Learn more abou the Connections Pane: [https://positron.posit.co/connections-pane.html](https://positron.posit.co/connections-pane.html).
+Learn more about the Connections Pane: [https://positron.posit.co/connections-pane.html](https://positron.posit.co/connections-pane.html).
 
 ### Positron Assistant: Get assistance from AI
 
 Positron Assistant is an **AI tool that provides LLM integration within Positron.** Positron Assistant can generate code, help you debug, and provide suggestions for next steps in your projects. 
 
-Note that Positron Assistant is currently a preview feature. Learn more, including how to setup Positron Assistant, [here](https://positron.posit.co/assistant.html). 
+Note that Positron Assistant is currently a preview feature. Learn more, including how to set up Positron Assistant, [here](https://positron.posit.co/assistant.html). 
 
 ![](images/positron-assistant.mov)
 
@@ -60,7 +73,7 @@ Just like in RStudio, you can **pull up documentation within Positron for both R
 
 ![](images/help-pane.mov)
 
-Learn more about the Help Pane [https://positron.posit.co/help-pane.html](https://positron.posit.co/help-pane.html).
+Learn more about the Help Pane: [https://positron.posit.co/help-pane.html](https://positron.posit.co/help-pane.html).
 
 ## Next steps
 
