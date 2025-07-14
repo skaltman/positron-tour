@@ -9,28 +9,26 @@ Positron builds on our years of experience developing RStudio and is a fork of V
 
 ## Where to Get Positron
 
-You can download the Positron for macOS, Windows, or Linux at: [https://positron.posit.co/download.html](https://positron.posit.co/download.html).
+Download Positron for macOS, Windows, or Linux: [https://positron.posit.co/download.html](https://positron.posit.co/download.html).
 
 
 ## A Quick Tour
 
 Now let’s take a closer look at some of the key features of Positron.
 
-### Interpreters
+### Manage interpreters: Switch between R and Python versions
 
-Positron supports multiple interpreter sessions across R and Python, allowing you to switch between environments easily within a single workspace. 
+Positron supports multiple interpreter sessions across R and Python, allowing you to **switch between environments easily within a single workspace.** 
 
-Positron shows the **active interpreter** in the upper-right corner, as well as highlights it in the Console. 
-
-You can see which interpreter is active in the interpreter picker in the upper-right corner. Switch between interpreters by clicking on the interpreter picker. 
+Positron shows the *active interpreter* in the upper-right corner (the interpreter picker) and highlights it in the Console. Switch between interpreters by clicking on the interpreter picker. 
 
 ![](images/positron-interpreter.png)
 
 Learn more about managing interpreters: https://positron.posit.co/managing-interpreters.html. 
 
-### Data Explorer
+### Data Explorer: Visually inspect your data  
 
-The Data Explorer gives you a spreadsheet-style view of your data. You can filter and sort tables, as well as view summary statistics for each column. 
+The **Data Explorer gives you a spreadsheet-style view of your data.** You can filter and sort tables, as well as view summary statistics for each column. 
 
 This makes it easy to quickly inspect datasets, check for missing values, or preview the results of your transformations. 
 
@@ -38,24 +36,32 @@ To access the Data Explorer, click on the spreadsheet icon next to the dataset i
 
 ![](images/data-explorer.mov)
 
-## Connections Pane
+Learn more about the Data Explorer: [https://positron.posit.co/data-explorer.html](https://positron.posit.co/data-explorer.html).
 
-The Connections Pane allows you to explore database connections created within your R or Python sessions. Once you've opened a connection, you can use the Connections Pane to explore the database schema.
+### Connections Pane: Explore database connections
+
+The Connections Pane allows you to **explore database connections created within your R or Python sessions.** Once you've opened a connection, you can use the Connections Pane to explore the database schema.
 
 ![](images/connections-pane.mov)
 
-## Positron Assistant
+Learn more abou the Connections Pane: [https://positron.posit.co/connections-pane.html](https://positron.posit.co/connections-pane.html).
 
-Positron Assistant is an AI tools that provides LLM integration within Positron. Positron Assistant can generate code, help you debug, and provide suggestions for next steps in your projects. 
+### Positron Assistant: Get assistance from AI
 
-Note that Positron Assistant is currently a **preview** feature. Learn more, including how to setup Positron Assistant, [here](https://positron.posit.co/assistant.html). 
+Positron Assistant is an **AI tool that provides LLM integration within Positron.** Positron Assistant can generate code, help you debug, and provide suggestions for next steps in your projects. 
+
+Note that Positron Assistant is currently a preview feature. Learn more, including how to setup Positron Assistant, [here](https://positron.posit.co/assistant.html). 
 
 ![](images/positron-assistant.mov)
 
-## Help Pane
+### Help Pane: Easy access to documentation
 
-Just like in RStudio, you can pull up documentation within Positron for both R and Python.  
+Just like in RStudio, you can **pull up documentation within Positron for both R and Python.**  
 
 ![](images/help-pane.mov)
 
-Learn more about the Help Pane [here](https://positron.posit.co/help-pane.html).
+Learn more about the Help Pane [https://positron.posit.co/help-pane.html](https://positron.posit.co/help-pane.html).
+
+## Next steps
+
+Ready to get started with Positron? Download Positron [here](https://positron.posit.co/download.html) and look through the [guides](https://positron.posit.co/add-to-path.html) to learn more. 
