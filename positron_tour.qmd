@@ -65,7 +65,7 @@ Learn more about the Connections Pane: [https://positron.posit.co/connections-pa
 
 ### Positron Assistant: Get assistance from AI
 
-Positron Assistant is an **AI tool that provides LLM integration within Positron.** Use it to generate code, debug, or get suggestions for next steps. Positron Assistant can access context from the Console, Variables pane, and Plots pane, and you can also manually attach files to give it additional context.
+Positron Assistant is an **AI tool that provides LLM integration within Positron.** Use it to generate code, debug, or get suggestions for next steps. Positron Assistant can access context from the Console, Variables pane, and Plots pane, and you can also manually attach files or folders to give it additional context.
 
 Note that Positron Assistant is currently a preview feature. Learn more, including how to set up Positron Assistant, [here](https://positron.posit.co/assistant.html). 
 
