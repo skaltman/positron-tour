@@ -35,7 +35,7 @@ Positron supports multiple interpreter sessions across R and Python, allowing yo
 
 Positron shows the *active interpreter* in the upper-right corner (the interpreter picker) and highlights it in the Console. Switch between interpreters by clicking on the interpreter picker. 
 
-![](images/positron-interpreter.png)
+![](images/interpreters.mov)
 
 Learn more about managing interpreters: [https://positron.posit.co/managing-interpreters.html](https://positron.posit.co/managing-interpreters.html). 
 
@@ -45,7 +45,11 @@ The **Data Explorer gives you a spreadsheet-style view of your data.** You can f
 
 This makes it easy to quickly inspect datasets, check for missing values, or preview the results of your transformations. 
 
-To access the Data Explorer, click on the spreadsheet icon next to the dataset in the Variables pane. 
+To access the Data Explorer, click on the spreadsheet icon next to the dataframe in the Variables pane. 
+You can also pull up the Data Explorer for a dataframe with the following commands:
+
+* Python: `%view dataframe label`
+* R: `View(dataframe, "label")`
 
 ![](images/data-explorer.mov)
 
@@ -55,26 +59,29 @@ Learn more about the Data Explorer: [https://positron.posit.co/data-explorer.htm
 
 The Connections Pane allows you to **explore database connections created within your R or Python sessions.** Once you've opened a connection, you can use the Connections Pane to explore the database schema.
 
-![](images/connections-pane.mov)
+![](images/connections.mov)
 
 Learn more about the Connections Pane: [https://positron.posit.co/connections-pane.html](https://positron.posit.co/connections-pane.html).
 
 ### Positron Assistant: Get assistance from AI
 
-Positron Assistant is an **AI tool that provides LLM integration within Positron.** Positron Assistant can generate code, help you debug, and provide suggestions for next steps in your projects. 
+Positron Assistant is an **AI tool that provides LLM integration within Positron.** Use it to generate code, debug, or get suggestions for next steps. Positron Assistant can access context from the Console, Variables pane, and Plots pane, and you can also manually attach files to give it additional context.
 
 Note that Positron Assistant is currently a preview feature. Learn more, including how to set up Positron Assistant, [here](https://positron.posit.co/assistant.html). 
 
-![](images/positron-assistant.mov)
+![](images/assistant.mov)
 
 ### Help Pane: Easy access to documentation
 
-Just like in RStudio, you can **pull up documentation within Positron for both R and Python.**  
+Just like in RStudio, you can **pull up documentation within Positron for both R and Python.** You can either use the keyboard shortcut `F1` or language-specific tools:
 
-![](images/help-pane.mov)
+* Python: `int?` or `help(int)`
+* R: `?paste0` or `help(paste0)`
+
+![](images/help.mov)
 
 Learn more about the Help Pane: [https://positron.posit.co/help-pane.html](https://positron.posit.co/help-pane.html).
 
 ## Next steps
-
+ 
 Ready to get started with Positron? Download Positron [here](https://positron.posit.co/download.html) and look through the [guides](https://positron.posit.co/add-to-path.html) to learn more. 
