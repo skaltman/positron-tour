@@ -35,7 +35,7 @@ Positron supports multiple interpreter sessions across R and Python, allowing yo
 
 Positron shows the *active interpreter* in the upper-right corner (the interpreter picker) and highlights it in the Console. Switch between interpreters by clicking on the interpreter picker. 
 
-![](images/interpreters.mov)
+![](images/interpreters.mp4)
 
 Learn more about managing interpreters: [https://positron.posit.co/managing-interpreters.html](https://positron.posit.co/managing-interpreters.html). 
 
@@ -51,7 +51,7 @@ You can also pull up the Data Explorer for a dataframe with the following comman
 * Python: `%view dataframe label`
 * R: `View(dataframe, "label")`
 
-![](images/data-explorer.mov)
+![](images/data-explorer.mp4)
 
 Learn more about the Data Explorer: [https://positron.posit.co/data-explorer.html](https://positron.posit.co/data-explorer.html).
 
@@ -59,7 +59,7 @@ Learn more about the Data Explorer: [https://positron.posit.co/data-explorer.htm
 
 The Connections Pane allows you to **explore database connections created within your R or Python sessions.** Once you've opened a connection, you can use the Connections Pane to explore the database schema.
 
-![](images/connections.mov)
+![](images/connections.mp4)
 
 Learn more about the Connections Pane: [https://positron.posit.co/connections-pane.html](https://positron.posit.co/connections-pane.html).
 
@@ -69,7 +69,7 @@ Positron Assistant is an **AI tool that provides LLM integration within Positron
 
 Note that Positron Assistant is currently a preview feature. Learn more, including how to set up Positron Assistant, [here](https://positron.posit.co/assistant.html). 
 
-![](images/assistant.mov)
+![](images/assistant.mp4)
 
 ### Help Pane: Easy access to documentation
 
@@ -78,7 +78,7 @@ Just like in RStudio, you can **pull up documentation within Positron for both R
 * Python: `int?` or `help(int)`
 * R: `?paste0` or `help(paste0)`
 
-![](images/help.mov)
+![](images/help-pane.mp4)
 
 Learn more about the Help Pane: [https://positron.posit.co/help-pane.html](https://positron.posit.co/help-pane.html).
 
